@@ -500,9 +500,9 @@
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
     // MicroSwiss all-metal hotend
-    #define DEFAULT_Kp  27.25
-    #define DEFAULT_Ki   2.45
-    #define DEFAULT_Kd  75.90
+    #define DEFAULT_Kp  28.44
+    #define DEFAULT_Ki   2.62
+    #define DEFAULT_Kd  77.16
   #endif
 #endif // PIDTEMP
 
