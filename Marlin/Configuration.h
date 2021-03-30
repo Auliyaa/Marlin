@@ -503,9 +503,9 @@
   #else
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-3
-  #define DEFAULT_Kp 25.70
-  #define DEFAULT_Ki 2.34
-  #define DEFAULT_Kd 70.56
+  #define DEFAULT_Kp 28.77
+  #define DEFAULT_Ki 2.76
+  #define DEFAULT_Kd 74.95
   #endif
 #endif // PIDTEMP
 
@@ -994,7 +994,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -50.00, -8.00, -1.9 }
+#define NOZZLE_TO_PROBE_OFFSET { -50.00, -8.00, -2.25 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1135,7 +1135,7 @@
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS -2
-#define Y_MIN_POS -36
+#define Y_MIN_POS -45
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
